@@ -26,5 +26,26 @@ $(function() {
    });
 });
 
+$(function() {
+    $('#easypiechart-yellow').easyPieChart({
+        scaleColor: false,
+        barColor: '#F9F900'
+    });
+});
+
+$(function() {
+    $('#easypiechart-purple').easyPieChart({
+        scaleColor: false,
+        barColor: '#C07AB8'
+    });
+});
+
+$(function() {
+    $('#easypiechart-green').easyPieChart({
+        scaleColor: false,
+        barColor: '#009100'
+    });
+});
+
 $('#calendar').datepicker({
 	});
